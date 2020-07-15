@@ -110,6 +110,8 @@ if [ "$CNAME" ]; then
   echo $CNAME > $FOLDER/CNAME
 fi
 
+git status
+
 # Commits the data to Github.
 echo "Deploying to GitHub..." && \
 cd $FOLDER && \
